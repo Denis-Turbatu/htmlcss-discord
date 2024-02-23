@@ -20,16 +20,20 @@ a{
     color: #fff;
 }
 
-.button {
+.button,
+.dark-btn {
     padding: 12px 15px;
-    border-radius: 20px;
+    border-radius: 25px;
+}
+
+.button {
     color: black;
     background-color: #fff;
 }
 
 .dark-btn {
     padding: 12px 15px;
-    border-radius: 20px;
+    border-radius: 25px;
     color: white;
     background-color: #222;
 }
@@ -38,7 +42,6 @@ a{
     font-size: 2rem;
     padding-bottom: 15px;
 }
-
 
 /* HEADER */
 header{
@@ -79,9 +82,10 @@ header{
 
 .hero-container{
     background: url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
-    padding: 155px 0;
+    padding: 180px 0;
 }
 
 .hero {
@@ -90,6 +94,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 22px;
 }
 
 .hero>h1, .hero>p {
@@ -98,7 +103,7 @@ header{
 
 .hero > p {
     text-align: center;
-    width: 48%;
+    width: 75%;
 }
 
 .btn-container{
@@ -144,20 +149,41 @@ header{
     background-color: lightgrey;
     display: flex;
     justify-content: center;
-    padding: 60px 0;
+    padding: 130px 0;
 }
 
-.conclusion {
+.bot-container {
     width: 70%;
-    height: 800px;
-    border: dashed 2px black;
-    background-color: green;
+}
+
+.bot-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-section h2, .bot-section p{
+    text-align: center;
+}
+
+.bot-section > p {
+    padding-top: 20px;
+    line-height: 22px;
+}
+
+.bot-cont-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.bot-cont-flex img{
+    margin-top: 0px;
 }
 
 /* FOOTER */
 
 .footer-section{
-
     background-color: #222;
     display: flex;
     justify-content: center;
