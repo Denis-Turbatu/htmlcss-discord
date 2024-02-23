@@ -21,10 +21,22 @@ a{
 }
 
 .button {
-    padding: 10px 15px;
+    padding: 12px 15px;
     border-radius: 20px;
     color: black;
     background-color: #fff;
+}
+
+.dark-btn {
+    padding: 12px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: #222;
+}
+
+.small-object > section > h3 {
+    font-size: 2rem;
+    padding-bottom: 15px;
 }
 
 
@@ -65,47 +77,59 @@ header{
 
 /* MAIN */
 
-.initial-section{
-    background-color: blue;
+.hero-container{
+    background: url(../img/jumbo.png);
     display: flex;
     justify-content: center;
-    padding: 60px 0;
+    padding: 155px 0;
 }
 
-.rappresentation {
-    background-color: magenta;
+.hero {
+    color: #fff;
     width: 70%;
-    height: 400px;
-    border: dashed 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero>h1, .hero>p {
+    padding-bottom: 30px;
+}
+
+.hero > p {
+    text-align: center;
+    width: 48%;
+}
+
+.btn-container{
+    padding: 25px 0;
 }
 
 .object-section {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 60px 0;
+    padding: 130px 0;
 }
 
 .object-container {
     width: 70%;
-    height: 400px;
-    border: dashed 2px black;
     display: flex;
 }
 
+.big-object, .small-object{
+    display: flex;
+    justify-content: center;
+}
+
 .big-object {
-    width: 60%;
-    border-right: dashed 2px black;
+    width: 70%;
     height: 100%;
-    /* debug */
-    background-color: lightskyblue;
 }
 
 .small-object {
-    width: 40%;
-    height: 100%;
-    /* debug */
-    background-color: pink;
+    width: 30%;
+    flex-direction: column;
 }
 
 .opposite{
@@ -114,11 +138,6 @@ header{
 
 .inverted {
     flex-direction: row-reverse;
-}
-
-.inverted .big-object{
-    border-left: dashed 2px black;
-    border-right: none;
 }
 
 .final-section {
