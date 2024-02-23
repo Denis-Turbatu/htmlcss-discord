@@ -1,0 +1,172 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON */
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+.logo, .login, .navbar{
+    background-color: orange;
+    border: dashed 2px black;
+}
+
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.long-col, .short-col{
+    padding: 5px;
+}
+
+.short-col {
+    width: 15%;
+}
+
+.long-col {
+    width: 40%;
+}
+
+.login {
+    text-align: right;
+}
+
+/* MAIN */
+
+.initial-section{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.rappresentation {
+    background-color: magenta;
+    width: 50%;
+    height: 400px;
+    border: dashed 2px black;
+}
+
+.object-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.object-container {
+    width: 50%;
+    height: 400px;
+    border: dashed 2px black;
+    display: flex;
+}
+
+.big-object {
+    width: 60%;
+    border-right: dashed 2px black;
+    height: 100%;
+    /* debug */
+    background-color: lightskyblue;
+}
+
+.small-object {
+    width: 40%;
+    height: 100%;
+    /* debug */
+    background-color: pink;
+}
+
+.opposite{
+    background-color: lightgrey;
+}
+
+.inverted {
+    flex-direction: row-reverse;
+}
+
+.inverted .big-object{
+    border-left: dashed 2px black;
+    border-right: none;
+}
+
+.final-section {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.conclusion {
+    width: 50%;
+    height: 800px;
+    border: dashed 2px black;
+    background-color: green;
+}
+
+/* FOOTER */
+
+.footer-section{
+
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+footer hr{
+    border: solid 1px white;
+}
+
+.info-anchors{
+    width: 50%;
+    height: 550px;
+    border: dashed 2px black;
+    display: flex;
+}
+
+.info-object{
+    background-color: #20b2aa;
+    width: calc(100% / 6);
+    border: dashed 2px white;
+}
+
+.large-info{
+    width: calc(100% / 6 * 2);
+    background-color: darksalmon;
+    border: dashed 2px black;
+}
+
+.footer-line{
+    display: flex;
+    background-color: #222;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 5px 0;
+}
+
+.footer-object {
+    padding: 5px 10px;
+    background-color: pink;
+    border: dashed 2px black;
+}
