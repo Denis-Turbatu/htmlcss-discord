@@ -7,41 +7,60 @@
 
 /* COMMON */
 
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: black;
+    background-color: #fff;
+}
+
 
 /* HEADER */
 header{
     display: flex;
     justify-content: center;
-    padding: 25px;
-    background-color: lightblue;
+    padding: 25px 0;
+    background-color: #255ee9;
 }
 
-.logo, .login, .navbar{
-    background-color: orange;
-    border: dashed 2px black;
-}
-
-.nav-items{
-    list-style-type: none;
+.header-container{
     display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.long-col, .short-col{
-    padding: 5px;
+    width: 70%;
 }
 
 .short-col {
-    width: 15%;
+    width: 20%;
 }
 
 .long-col {
-    width: 40%;
+    flex-grow: 1;
 }
 
-.login {
-    text-align: right;
+.long-col,
+.short-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
 }
 
 /* MAIN */
@@ -55,7 +74,7 @@ header{
 
 .rappresentation {
     background-color: magenta;
-    width: 50%;
+    width: 70%;
     height: 400px;
     border: dashed 2px black;
 }
@@ -68,7 +87,7 @@ header{
 }
 
 .object-container {
-    width: 50%;
+    width: 70%;
     height: 400px;
     border: dashed 2px black;
     display: flex;
@@ -110,7 +129,7 @@ header{
 }
 
 .conclusion {
-    width: 50%;
+    width: 70%;
     height: 800px;
     border: dashed 2px black;
     background-color: green;
@@ -132,7 +151,7 @@ footer hr{
 }
 
 .info-anchors{
-    width: 50%;
+    width: 70%;
     height: 550px;
     border: dashed 2px black;
     display: flex;
