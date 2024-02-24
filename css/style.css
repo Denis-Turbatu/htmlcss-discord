@@ -295,3 +295,16 @@ i{
     color: #fff;
     padding-right: 20px;
 }
+
+.wave{
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert(1) saturate(1) brightness(0.97);
+    height: 100px;
+}
+
+.reverse {
+    filter: invert(1) saturate(1) brightness(0.97);
+    rotate: 180deg;
+}
