@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Discord-Structure</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Discord-Structure-2</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <div class="header-container">
-        <div class="logo short-col">
-          <img src="./img/logo.svg" alt="">
-        </div>
-        <div class="navbar long-col">
-          <ul class="nav-items">
-            <li><a href="#">Scarica</a></li>
-            <li><a href="#">Perchè Discord</a></li>
-            <li><a href="#">Nitro</a></li>
-            <li><a href="#">Sicurezza</a></li>
-            <li><a href="#">Assistenza</a></li>
-          </ul>
-        </div>
-        <div class="login short-col">
-          <a href="#" class="button">Accedi</a>
-        </div>
+      <div class="container-maxw-1180px header-container">
+        <!-- logo -->
+        <img class="nav-item-logo" src="./img/logo.svg" alt="logo" />
+        <!-- navbar -->
+        <ul class="navbar-items">
+          <li><a href="">Scarica</a></li>
+          <li><a href="">Perchè Discord</a></li>
+          <li><a href="">Nitro</a></li>
+          <li><a href="">Sicurezza</a></li>
+          <li><a href="">Assistenza</a></li>
+        </ul>
+        <!-- login -->
+        <a class="nav-item-login button" href="">Accedi</a>
       </div>
     </header>
     <!-- /HEADER -->
@@ -33,7 +36,7 @@
     <main>
       <!-- Hero Section -->
       <div class="hero-container">
-        <div class="hero">
+        <section class="hero-section-margin-auto">
           <h1>Il tuo posto per parlare</h1>
           <p>
             Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
@@ -41,42 +44,40 @@
             che vuole passare il tempo assieme, Discord rende più facile
             chiacchierare ogni giorno e ritrovarsi più spesso.
           </p>
-          <div class="btn-container">
-            <a href="#" class="button">&darr; Scarica per Mac</a>
-            <a href="#" class="button dark-btn">Apri Discord nel tuo browser</a>
+          <div class="hero-button-container">
+            <a href="" class="button">&darr; Scarica per Mac</a>
+            <a href="" class="button btn-dark">Apri Discord nel tuo browser</a>
           </div>
-        </div>
+        </section>
       </div>
-      <!-- /Initial Section -->
+      <!-- /Hero Section -->
 
-      <!-- Object Section -->
-      
-      <div class="object-section">
-        <div class="object-container">
-          <div class="big-object">
-            <img src="./img/item1.svg" alt="item-1">
-          </div>
-          <div class="small-object">
-            <section>
-              <h3>
-                Un luogo a invito con tutto lo spazio necessario per parlare
-              </h3>
-              <p>
-                I server Discord sono organizzati in canali tematici in cui puoi
-                parlare, condividere, o semplicemente parlare in chiamata senza
-                intasare una chat di gruppo
-              </p>
-            </section>
-          </div>
+      <!-- Section-container -->
+      <div class="container-maxw-1180px section-container">
+        <div class="container-left-object">
+          <img src="./img/item1.svg" alt="item-1" />
+        </div>
+        <div class="container-right-object">
+          <section>
+            <h3>
+              Un luogo a invito con tutto lo spazio necessario per parlare
+            </h3>
+            <p>
+              I server Discord sono organizzati in canali tematici in cui puoi
+              parlare, condividere, o semplicemente parlare in chiamata senza
+              intasare una chat di gruppo
+            </p>
+          </section>
         </div>
       </div>
+
       <div class="wave"></div>
-      <div class="object-section opposite">
-        <div class="object-container inverted">
-          <div class="big-object">
-            <img src="./img/item2.svg" alt="item-2">
+      <div class="reverse-container">
+        <div class="container-maxw-1180px section-container opposite">
+          <div class="container-left-object">
+            <img src="./img/item2.svg" alt="item-2" />
           </div>
-          <div class="small-object">
+          <div class="container-right-object">
             <section>
               <h3>Dove trovarsi è facile</h3>
               <p>
@@ -88,64 +89,61 @@
           </div>
         </div>
       </div>
-      <div class="wave reverse"></div>
-      <div class="object-section">
-        <div class="object-container">
-          <div class="big-object">
-            <img src="./img/item3.svg" alt="item-3">
-          </div>
-          <div class="small-object">
-            <section>
-              <h3>Da pochi a un fandom</h3>
-              <p>
-                Dai inizio a una community di qualsiasi dimensione son strumenti
-                di moderazione e accesso ai membri personalizzabile. Concedi ai
-                membri poteri speciali, crea canali privati, e molto altro.
-              </p>
-            </section>
-          </div>
+
+      <div class="wave reversed"></div>
+      <div class="container-maxw-1180px section-container">
+        <div class="container-left-object">
+          <img src="./img/item3.svg" alt="item-3" />
         </div>
-      </div>
-      <!-- Object Section -->
-        <div class="wave"> </div>
-      <!-- Final Section -->
-      <div class="final-section">
-        <div class="bot-container">
-          <section class="bot-section">
-            <h2>Tecnologia affidabile per tenersi in contatto</h2>
+        <div class="container-right-object">
+          <section>
+            <h3>Da pochi a un fandom</h3>
             <p>
-              Video e audio a bassa latenza ti faranno sentire come se tutti
-              foste nella stessa stanza. Fai ciao in video, guarda gli amici
-              giocare in streaming, o riunitevi in una sessione di disegno con a
-              condivisione schermo.
+              Dai inizio a una community di qualsiasi dimensione son strumenti
+              di moderazione e accesso ai membri personalizzabile. Concedi ai
+              membri poteri speciali, crea canali privati, e molto altro.
             </p>
-            <img src="./img/item4-big.svg" alt="big-item">
-            <div class="bot-cont-flex">
-              <img src="./img/stars.svg" alt="star">
-              <h2>Pronto per iniziare la tua avventura?</h2>
-              <a href="#" class="button bot-btn">&darr; Scarica per Mac</a>
-            </div>
           </section>
         </div>
       </div>
+      <!-- Final Section -->
+      <section class="container-maxw-1180px final-section-container">
+        <h3>Tecnologia affidabile per tenersi in contatto</h3>
+        <p>
+          Video e audio a bassa latenza ti faranno sentire come se tutti foste
+          nella stessa stanza. Fai ciao in video, guarda gli amici giocare in
+          streaming, o riunitevi in una sessione di disegno con a condivisione
+          schermo.
+        </p>
+        <img src="./img/item4-big.svg" alt="big-item" />
+        <div class="bot-cont-flex">
+          <img src="./img/stars.svg" alt="star" class="star" />
+          <h3>Pronto per iniziare la tua avventura?</h3>
+          <a href="#" class="button blue-white-button"
+            >&darr; Scarica per Mac</a
+          >
+        </div>
+      </section>
       <!-- /Final Section -->
+      <!-- /Section-container -->
     </main>
-    <!-- /MAIN -->
+    <!-- MAIN -->
 
     <!-- FOOTER -->
     <footer>
-      <!-- Footer Infos -->
-      <div class="footer-section">
-        <div class="info-anchors">
-          <div class="info-object large-info">
+      <!-- Footer-info-section -->
+      <div class="container-maxw-1180px footer-section">
+        <div class="info-anchors-section">
+          <div class="info-object-left">
             <h3>Il tuo posto per parlare</h3>
             <div class="language">
-              <img src="./img/ita.png" alt="ita-flag">
+              <img src="./img/ita.png" alt="nations-flag" />
               <div class="select-lang">italiano</div>
               <img
                 class="arrow-icon"
                 src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/65a4fe10ef3e439bb3365f6a_Arrow.svg"
-                alt="arroww-icon">
+                alt="arroww-icon"
+              />
             </div>
             <div class="icons">
               <i class="fa-brands fa-twitter"></i>
@@ -154,7 +152,7 @@
               <i class="fa-brands fa-youtube"></i>
             </div>
           </div>
-          <div class="info-object">
+          <div class="info-object-right">
             <ul>
               <li class="title-list">Prodotto</li>
               <li>Scarica</li>
@@ -163,8 +161,8 @@
               <li>Sicurezza</li>
               <li>Assistenza</li>
             </ul>
-          </div>
-          <div class="info-object">
+            <!-- </div>
+            <div class="info-object"> -->
             <ul>
               <li class="title-list">Compagnia</li>
               <li>Chi siamo</li>
@@ -173,8 +171,8 @@
               <li>Redazione</li>
               <li>Negozio</li>
             </ul>
-          </div>
-          <div class="info-object">
+            <!-- </div>
+            <div class="info-object"> -->
             <ul>
               <li class="title-list">Risorse</li>
               <li>Scarica</li>
@@ -188,8 +186,8 @@
               <li>Sicurezza</li>
               <li>Assistenza</li>
             </ul>
-          </div>
-          <div class="info-object">
+            <!-- </div>
+            <div class="info-object"> -->
             <ul>
               <li class="title-list">Norme</li>
               <li>Scarica</li>
@@ -201,15 +199,15 @@
           </div>
         </div>
       </div>
-      <!-- /Footer Infos -->
-      <hr>
+      <!-- /Footer-info-section -->
+      <hr />
       <!-- Footer Line -->
-      <div class="footer-line">
-        <div class="footer-container">
+      <div class="footer-header-bottom">
+        <div class="container-maxw-1180px footer-container">
           <div class="footer-object">
-            <img src="./img/logo.svg" alt="logo">
+            <img src="./img/logo.svg" alt="logo" />
           </div>
-          <div class="button bot-btn">
+          <div class="button blue-white-button">
             <a href="#">Registrati</a>
           </div>
         </div>
